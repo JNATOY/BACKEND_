@@ -17,7 +17,7 @@ class Usuario:
             "edad": self.edad,
             "dni": self.dni,
             "estado": True,
-            "creadoEl": self.strFormatTime(datetime.datetime.now()),
+            "creadoEl":self.strFormatTime(datetime.datetime.now()),
             "password": self.password,
             "correo": self.correo
         }
