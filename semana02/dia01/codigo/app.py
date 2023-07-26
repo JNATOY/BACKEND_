@@ -51,6 +51,53 @@ if __name__ == '__main__':
 """ calculadora?n1=2&n2=7&ope=multiplicacion """
 """ calculadora?n1=3&n2=2&ope=division """
 
+@app.route('/calculadora2')
+def calculadora():
+    n1 = int(request.args.get('n1', '0'))
+    n2 = int(request.args.get('n2', '0'))
+    ope = request.args.get('ope', 'ninguno')
+
+    if (ope == 'suma'):
+        resultado = n1 + n2
+    elif (ope == 'resta'):
+        resultado = n1 - n2
+    elif (ope == 'multiplicacion'):
+        resultado = n1 * n2
+    else:
+        resultado = None
+
+    return jsonify({'resultado': resultado})
+
+if __name__ == '__main__':
+    app.run()
+
+    """
+ crear una ruta llamada calculadora que reciba 3 parametros
+ n1 , n2 y ope donde ope es la operacion a calcular
+ si ope es igual a suma debe sumar si es igual a restar y si es igual
+ a multiplicación debe multiplicar, si escribes otra operación distinta
+ debe salir un mensaje que diga OPERACION INVALIDA
+"""
+
+@app.route('/calculadora')
+def calculadora():
+    n1 = int(request.args.get('n1','0'))
+    n2 = int(request.args.get('n2','0'))
+    ope = request.args.get('ope','ninguno')
+    
+    if(ope == 'suma'):
+        resultado = n1 + n2
+    elif(ope == 'resta'):
+        resultado = n1 - n2
+    elif(ope == 'multiplicacion'):
+        resultado = n1 * n2
+    else:
+        resultado = None
+        
+    if resultado is not None:
+        return '<h1>resultado es {}</h1>'.format(resultado)
+    else:
+        return '<h1>OPERACIÓN INVALIDA</h1>'
 
 
 app.run(debug=True)
