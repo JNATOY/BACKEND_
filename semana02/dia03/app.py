@@ -1,5 +1,5 @@
 from flask import Flask,request,render_template
-from profile import Profile
+from profile_ import Profile
 
 app = Flask(__name__)
 
