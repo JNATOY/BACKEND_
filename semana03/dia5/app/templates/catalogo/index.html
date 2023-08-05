@@ -1,6 +1,7 @@
 {% extends 'layout.html' %}
 {% block content %}
     <h1 class="mt-4">PRODUCTOS</h1>
+    <a href="/catalogo/nuevo" class="btn btn-primary">NUEVO</a>
     <div class="card mb-4">
         <div class="card-body">
             <table class="table">
@@ -18,7 +19,16 @@
                       <th scope="row">{{producto.id}}</th>
                       <td>{{producto.descripcion}}</td>
                       <td>{{producto.precio}}</td>
-                      <td></td>
+                      <td>
+                        <a href="/catalogo/editar/{{producto.id}}"
+                        class="btn btn-success">
+                          Editar
+                        </a>
+                        <a href="/catalogo/eliminar/{{producto.id}}"
+                        class="btn btn-danger">
+                          Eliminar
+                        </a>
+                      </td>
                     </tr>
                   {% endfor %}
                   
