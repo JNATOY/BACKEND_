@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <h1 class="mt-4">PRODUCTOS</h1>
+    <div class="card mb-4">
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Descripcion</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for producto in productos %}
+                    <tr>
+                      <th scope="row">{{producto.id}}</th>
+                      <td>{{producto.descripcion}}</td>
+                      <td>{{producto.precio}}</td>
+                      <td></td>
+                    </tr>
+                  {% endfor %}
+                  
+                  
+                </tbody>
+              </table>
+        </div>
+    </div>
+{% endblock %}
