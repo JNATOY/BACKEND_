@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FoodKa - Food Ordering, Delivery & Restuarent Template</title>
+    <!--fivicon icon-->
+    <link rel="icon" href="assets/img/fevicon.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/magnific.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+    <link rel="stylesheet" href="assets/css/owl.min.css">
+    <link rel="stylesheet" href="assets/css/slick-slide.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/remixicon/remixicon.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&family=Bebas+Neue&family=Satisfy&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body class='sc5'>
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div id="wave1">
+            </div>
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader area end -->
+    <!-- search popup area start -->
+    <div class="body-overlay" id="body-overlay"></div>
+    <div class="td-search-popup" id="td-search-popup">
+        <form action="index.html" class="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search.....">
+            </div>
+            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!-- //. search Popup -->
+
+    <!-- navbar start -->
+    <header class="navbar-area">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container nav-container">
+                <div class="responsive-mobile-menu">
+                    <button class="menu toggle-btn d-block d-lg-none" data-target="#themefie_main_menu" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-left"></span>
+                        <span class="icon-right"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="themefie_main_menu">
+                    <ul class="navbar-nav menu-open">
+                        <li class="current-menu-item menu-item-has-children">
+                            <a href="home-1.html">HOME</a>
+                            <ul class="sub-menu ps-0">
+                                <li><a href="home-1.html">Home 01</a></li>
+                                <li><a href="home-2.html">Home 02</a></li>
+                                <li><a href="home-3.html">Home 03</a></li>
+                            </ul>
+                        </li>
+                        <li class="current-menu-item menu-item-has-children">
+                            <a href="#">PAGES</a>
+                            <ul class="sub-menu ps-0">
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog-details.html">Blog Details</a></li>
+                                <li><a href="menu.html">Menu</a></li>
+                                <li><a href="menu-list.html">Menu List</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="single-product.html">Shop Details</a></li>
+                                <li><a href="cart.html">Cart</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="about.html">ABOUT US</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">CONTACTS</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <a class="main-logo" href="home-1.html"><img src="assets/img/logo.png" alt="img"></a>
+                </div>
+                <div class="nav-right-part nav-right-part-mobile">
+                    <ul>
+                        <li><a class="search" href="#"><i class="ri-search-line"></i></a>
+                        </li>
+                        <li class="phone-contact d-md-block d-none"><i class="ri-phone-fill float-start"></i>
+                            +997 509 153 849
+                        </li>
+                        <li class="menu-cart"><a href="cart.html">CART <span>1</span></a></li>
+                        <li>49.50 $</li>
+                    </ul>
+                </div>
+                <div class="nav-right-part nav-right-part-desktop">                    
+                    <ul>
+                        <li><a class="search" href="#"><i class="ri-search-line"></i></a>
+                        </li>
+                        <li class="phone-contact"><i class="ri-phone-fill float-start"></i>
+                            +997 509 153 849
+                        </li>
+                        <li class="menu-cart"><a href="cart.html">CART <span>1</span></a></li>
+                        <li>49.50 $</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar end -->
+
+    <!-- bredcrumb Area Start-->
+    <section class="breadcrumb-area">
+        <div class="banner-bg-img"></div>
+        <div class="banner-shape-1"><img src="assets/img/banner/shape-1.png" alt="img"></div>
+        <div class="banner-shape-2"><img src="assets/img/banner/shape-2.png" alt="img"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 align-self-center">
+                    <div class="banner-inner text-center">
+                        <h3>About us
+                        </h3>
+                        <h1>Who are we?</h1>
+                        <nav aria-label="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li class="breadcrumb-item"><a href="home-1.html">Home</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">About</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bredcrumb Area End --> 
+
+    <!-- about Area Start-->
+    <section class="about-area pd-top-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-sm-8">
+                    <div class="thumb mb-4 mb-lg-0">
+                        <img src="assets/img/other/about-2.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-first align-self-center">
+                    <div class="section-title mb-0 text-center text-lg-start">
+                        <h3 class="sub-title">Our History</h3>
+                        <h2 class="title">Origins of the restaurant</h2>
+                        <p>Sharing knowledge and skills is what we do. With passion. That’s why the Alimentarium organises daily culinary workshops and classes led by qualified chefs. A neque malesuada in tortor eget justo mauris nec dolor. Consequat risus vitae, ac ac et preparation.</p>
+                        <p>Nunc quam nibh diam in eget. Tortor amet, eleifend sed viverra ac eu porta netus pulvinar. Quis sem donec pharetra viverra consectetur aliquam, platea egestas. Egestas quis fringilla cursus nullam. Nisl vulputate aliquam odio massa mattis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about Area End -->
+
+    <!-- about Area Start-->
+    <section class="about-area pd-top-120 pd-bottom-90">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="thumb">
+                        <img src="assets/img/other/about.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-title text-center text-lg-start">
+                        <h3 class="sub-title">Why choose us</h3>
+                        <h2 class="title">Why we are the best</h2>
+                        <p>A, blandit euismod ullamcorper vestibulum enim habitasse. Ultrices tincidunt scelerisque elit enim. A neque malesuada in tortor eget justo mauris nec dolor. Consequat risus vitae, ac ac et preparation. He wanted to serve burgers, fries and beverages that tasted .</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="single-about-wrap">
+                                <img src="assets/img/icon/1.png" alt="img">
+                                Fresh food
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single-about-wrap">
+                                <img src="assets/img/icon/2.png" alt="img">
+                                Fast Delivery
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single-about-wrap">
+                                <img src="assets/img/icon/3.png" alt="img">
+                                Quality Maintain
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single-about-wrap">
+                                <img src="assets/img/icon/4.png" alt="img">
+                                24/7 Service
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about Area End -->
+
+    <!-- video Area Start-->
+    <section class="video-area featured-area pd-bottom-150" style="background-image: url(assets/img/other/video.png);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title text-lg-start text-center">
+                        <h3 class="sub-title text-secondary">Why choose us</h3>
+                        <h2 class="title text-white">Visit our kitchens to see how we prepare your favorite dish</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-center text-center">
+                    <a class="play-btn" href="#"><i class="ri-play-circle-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- video Area End -->
+
+    <!-- testimonial Area Start-->
+    <section class="testimonial-area text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-10">
+                    <div class="testimonial-slider owl-carousel">
+                        <div class="item">
+                            <div class="testimonial-wrap">
+                                <p>“We have no regrets! I don't know what else to say. It really saves me time and effort. Food is exactly what our business has been lacking”</p>
+                                <h3>Julia R. Davis
+                                </h3>
+                                <h6>Food Bloger</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-wrap">
+                                <p>“We have no regrets! I don't know what else to say. It really saves me time and effort. Food is exactly what our business has been lacking”</p>
+                                <h3>Davis J. Rulia
+                                </h3>
+                                <h6>Food Bloger</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial Area End -->
+
+    <!-- blog Area Start-->
+    <section class="blog-area pd-bottom-90">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5 col-lg-7">
+                    <div class="section-title text-center">
+                        <h3 class="sub-title">News & Blog</h3>
+                        <h2 class="title">Celebrating the awesomeness of food.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/blog/1.png" alt="img">
+                        </div>
+                        <div class="wrap-details">
+                            <span class="cat">
+                                <span class="date">
+                                    <i class="ri-calendar-todo-fill"></i>July 14, 2021
+                                </span>
+                                <a href="#" class="tag me-0">
+                                    <i class="ri-price-tag-3-fill"></i>Burgar
+                                </a>
+                            </span>
+                            <h5><a href="blog-details.html">Greek yogurt breakfast bowls with toppings</a></h5> 
+                            <div class="wrap-hover-area">
+                                <p> It with just a touch of sauce. saucy riff, more in the style of takeout American Chinese kung pao. The sauce makes it perfect for eating with rice.
+                                </p> 
+                                <a class="link-btn" href="blog-details.html">Read More</a> 
+                            </div>                       
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/blog/2.png" alt="img">
+                        </div>
+                        <div class="wrap-details">
+                            <span class="cat">
+                                <span class="date">
+                                    <i class="ri-calendar-todo-fill"></i>July 05, 2021
+                                </span>
+                                <a href="#" class="tag me-0">
+                                    <i class="ri-price-tag-3-fill"></i>Pizza
+                                </a>
+                            </span>
+                            <h5><a href="blog-details.html">Broad beans, tomato, garlic & cheese bruschetta
+                            </a></h5> 
+                            <div class="wrap-hover-area">
+                                <p> It with just a touch of sauce. saucy riff, more in the style of takeout American Chinese kung pao. The sauce makes it perfect for eating with rice.
+                                </p> 
+                                <a class="link-btn" href="blog-details.html">Read More</a> 
+                            </div>                       
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/blog/3.png" alt="img">
+                        </div>
+                        <div class="wrap-details">
+                            <span class="cat">
+                                <span class="date">
+                                    <i class="ri-calendar-todo-fill"></i>August 14, 2021
+                                </span>
+                                <a href="#" class="tag me-0">
+                                    <i class="ri-price-tag-3-fill"></i>Pizza
+                                </a>
+                            </span>
+                            <h5><a href="blog-details.html">Make authentic Italian margherita pizza at home
+                            </a></h5> 
+                            <div class="wrap-hover-area">
+                                <p> It with just a touch of sauce. saucy riff, more in the style of takeout American Chinese kung pao. The sauce makes it perfect for eating with rice.
+                                </p> 
+                                <a class="link-btn" href="blog-details.html">Read More</a> 
+                            </div>                       
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog Area End -->
+
+    <!-- footer area start -->
+    <footer class="footer-area pd-top-100">
+        <div class="footer-inner padding-top-100 padding-bottom-65">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget widget">
+                            <div class="logo">
+                                <img src="assets/img/logo.png" alt="img">
+                            </div>
+                            <ul class="contact_info_list">
+                                <li class="single-info-item">
+                                    <img src="assets/img/icon/location.png" alt="icon">
+                                    <div class="details">
+                                        4920 Trails End Road Ft  United States, FL 33311
+                                    </div>
+                                </li>
+                                <li class="single-info-item">
+                                    <img src="assets/img/icon/envelope.png" alt="icon">
+                                    <div class="details">
+                                        ordernow@foodka.com
+                                    </div>
+                                </li>
+                                <li class="single-info-item">
+                                    <img src="assets/img/icon/phone.png" alt="icon">
+                                    <div class="details">
+                                        +997 509 153 849
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget widget widget_link">
+                            <h4 class="widget-title">Hot Menu</h4>
+                            <ul>
+                                <li><a href="menu-list.html">Burger King Whopper</a></li>
+                                <li><a href="menu-list.html">Five Guys Cheeseburger</a></li>
+                                <li><a href="menu-list.html">KFC Original Recipe Chicken</a></li>
+                                <li><a href="menu-list.html">Wendy's Frosty</a></li>
+                                <li><a href="menu-list.html">McDonald's Happy Meal</a></li>
+                                <li><a href="menu-list.html">Domino's Pepperoni Pizza</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget widget widget_link">
+                            <h4 class="widget-title">Opening Hours</h4>
+                            <ul>
+                                <li>Monday : 09.00am-10.00pm</li>
+                                <li>Tuesday : 09.00am-10.00pm</li>
+                                <li>Wednesday : 09.00am-10.00pm</li>
+                                <li>Thursday : 09.00am-10.00pm</li>
+                                <li>Friday  : 09.00am-10.00pm</li>
+                                <li>Saturday & Sunday : <span>Closed</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget widget widget_instagram_feeds">
+                            <h4 class="widget-title">Instagram Feeds</h4>
+                            <ul>
+                                <li><a href="#"><img src="assets/img/instagram/1.png" alt="instagram" /></a></li>
+                                <li><a href="#"><img src="assets/img/instagram/2.png" alt="instagram" /></a></li>
+                                <li><a href="#"><img src="assets/img/instagram/3.png" alt="instagram" /></a></li>
+                                <li><a href="#"><img src="assets/img/instagram/4.png" alt="instagram" /></a></li>
+                                <li><a href="#"><img src="assets/img/instagram/5.png" alt="instagram" /></a></li>
+                                <li><a href="#"><img src="assets/img/instagram/6.png" alt="instagram" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-md-start text-center">
+                        <div class="copyright-area">
+                            <p>© 2021 Foodka. All Rights Reserved by Themefie</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="social-area text-md-end text-center mt-md-0 mt-2">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li> 
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li> 
+                            <li><a href="#"><i class="fab fa-behance"></i></a></li> 
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->    
+
+    <!-- back-to-top end -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fas fa-angle-double-up"></i></span>
+    </div>
+
+    
+
+    <!-- all plugins here -->
+    <script src="assets/js/jquery.3.6.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/imageloded.min.js"></script>
+    <script src="assets/js/counterup.js"></script>
+    <script src="assets/js/waypoint.js"></script>
+    <script src="assets/js/magnific.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/owl.min.js"></script>
+    <script src="assets/js/slick-slider.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tweenmax.min.js"></script>
+    <!-- main js  -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
