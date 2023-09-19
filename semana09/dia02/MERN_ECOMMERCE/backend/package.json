@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
+    "devcatalogo":"nodemon src/microservices/ms-catalogo/index.js",
+    "devusuario":"nodemon src/microservices/ms-usuario/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,5 +21,12 @@
     "mongoose": "^7.5.1",
     "nodemon": "^3.0.1",
     "npm": "^10.1.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.40.0",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose-unique-validator": "^4.0.0"
   }
 }

@@ -1,0 +1,5 @@
+juannatobusiness
+
+lDR31vHoIoRe0FOL
+
+mongodb+srv://juannatobusiness:lDR31vHoIoRe0FOL@cluster0.pov3d4x.mongodb.net/
