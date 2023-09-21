@@ -1,5 +1,6 @@
 import ContactInfo from "../molecules/ContactInfo"
 
+
 const MainHeader = () =>{
     return(
         <>
@@ -11,7 +12,9 @@ const MainHeader = () =>{
         <div className="site-header">
 
           <p className="h-logo">
-            <a href="index.html"><img src="img/logo.png" alt="MultiShop"/></a>
+            <a href="index.html">
+            <img src='/assets/img/logofit.png' alt="avafit"/>
+              </a>
           </p><div className="h-shop">
 
             <form method="get" action="#" className="h-search" id="h-search">

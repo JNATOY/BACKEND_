@@ -4,15 +4,15 @@ const ContactInfo = ()=>{
               <ul className="links_list links_list-align-right align-center-desktop topbar-contacts">
                 <li>
                   <p className="links_list-label">
-                    Our Address
+                    Nuestra Dirección
                   </p>
                   <p className="links_list-value">
-                    <a href="http://maps.google.com">15th Street, Miami, USA</a>
+                    <a href="http://maps.google.com">Av la marina 135, San Miguel</a>
                   </p>
                 </li>
                 <li>
                   <p className="links_list-label">
-                    Contact Us
+                    Contactanos
                   </p>
                   <p className="links_list-value">
                     <a href="mailto:support@email.com">Support@Email.com</a>
@@ -20,7 +20,7 @@ const ContactInfo = ()=>{
                 </li>
                 <li>
                   <p className="links_list-label">
-                    Phone
+                    Telefono
                   </p>
                   <p className="links_list-value">
                     <a href="tel:4785929899">(478)-592-9899</a>

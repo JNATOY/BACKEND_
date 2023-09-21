@@ -11,7 +11,7 @@ const SiteContent = () =>{
 
                 <div className="section-top">
 
-                  <h1 className="maincont-ttl">Shop</h1>
+                  <h1 className="maincont-ttl">Nutripoint</h1>
                   <ul className="b-crumbs">
                     <li><a href="index.html">Home</a></li>
                     <li>Catalog - Gallery</li>

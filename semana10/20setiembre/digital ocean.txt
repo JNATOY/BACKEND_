@@ -1,0 +1,18 @@
+contaseña: 2Kq62BHiExaxj#L
+hostname: codigo
+
+ssh root@147.182.205.128
+
+instalacion :
+
+sudo apt install curl
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+source ~/.bashrc
+nvm install v16.16.0
+ssh root@direccion_ip
+
+
+sudo apt install curl
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+source ~/.bashrc
+nvm install v16.16.0

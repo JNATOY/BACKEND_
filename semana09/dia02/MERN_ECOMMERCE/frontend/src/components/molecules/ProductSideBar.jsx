@@ -26,7 +26,7 @@ const ProductSiderBar = ()=>{
                       <div className="section-filter">
                         <div className="section-filter">
                           <div className="blog-sb-widget multishopcategories_widget">
-                            <h3 className="widgettitle">Categories</h3>
+                            <h3 className="widgettitle">Categorias</h3>
                             <div className="section-sb-current">
                               <ul className="section-sb-list">
                                 {listOfCategories.length > 0 &&

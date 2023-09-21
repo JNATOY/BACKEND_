@@ -1,0 +1,65 @@
+sudo -- permite ejecutar comandos como administrador
+sudo apt update - actualizar el sistema
+sudo apt install net-tools --instala libreria net tools
+sudo apt install iputils-ping
+
+ifconfig -- para saber la ip del servidor
+ping ip_servidor (ejem : ping 192.168.0.2) para comprobar conexión
+
+
+
+### servicio SSH
+en gitbash
+ejecutar
+ssh codigo@direccion_ip_servidor
+ingresar la clave
+
+#### comandos basicos
+pwd - directorio actual
+ls - listar
+cp  - copiar
+rm - eliminar
+mkdir crear directorio
+touch - crear archivo
+
+####### permisos
+sudo mkdir - crea directorio con permisos de administrador
+chmod 777 - asigna permisos de lectura y escritura a un archivo o carpeta
+chmod 444 - asinga permisos de solo lectura a un archivo o carpeta
+
+
+###### editor vim
+dentro del directorio codigo/prueba
+touch prueba.txt
+cat prueba.txt
+sudo apt install vim
+sudo vim prueba.txt
+para insertar presionas tecla i
+para guardar presionas esc +  :wq
+para salir sin guardar presionas esc + :q!
+
+### instalar servidor web
+sudo apt install nginx
+sudo systemctl status nginx
+cd /var/www/html
+cat nombrearchivo -- puedo ver el contenido
+
+descarmos win scp
+https://sourceforge.net/projects/winscp/files/WinSCP/6.1.2/WinSCP-6.1.2-Setup.exe/download
+
+entramos por winscp y creamos un archivo prueba.html en /home/codigo
+luego en el gitbash ejecutamos este comando
+sudo cp prueba.html /var/www/html
+
+sudo cp -r personal/. /var/www/html/
+
+
+### Instalar nvm en ubuntu
+sudo apt install curl
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+source ~/.bashrc
+nvm install v16.16.0
+
+### desplegar proyecto node en ubuntu
+
+
